@@ -1,0 +1,47 @@
+.flexdiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.imageWidth {
+  width: 350px;
+}
+
+.marginLeft {
+  margin-left: 2;
+}
+.underLineText {
+  text-decoration: underline;
+}
+
+.taskWidth {
+  width: 50%;
+}
+
+.buttonWidthAndHeigth {
+  height: 40px !important;
+}
+.statusButtonWidth {
+  width: 105px;
+  height: 40px;
+}
+
+.addTaskButtonMarginPadingWidth {
+  margin-top: 3.51rem;
+  padding: 0.6rem !important;
+  margin-right: 0.5rem;
+  width: 70px;
+}
+.todoAddBoxWidth {
+  width: 35vw;
+}
+@media screen and (min-width: 800px) {
+  .taskWidth {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .todoAddBoxWidth {
+    width: 50vw;
+  }
+}
